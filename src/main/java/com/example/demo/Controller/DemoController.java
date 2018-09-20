@@ -16,4 +16,12 @@ public class DemoController {
         return "hello";
     }
 
+    @ResponseBody
+    @RequestMapping
+    public String sayHello2(){
+        return "hello";
+    }
+
+
+
 }
